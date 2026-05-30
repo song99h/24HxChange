@@ -105,3 +105,6 @@ app.listen(PORT, () => {
   console.log(`🔧  Debug:    http://localhost:${PORT}/api/debug/uploads`);
   console.log(`🌐  Frontend: ${process.env.FRONTEND_URL || 'http://localhost:5173'}\n`);
 });
+
+module.export=app;
+
